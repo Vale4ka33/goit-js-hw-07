@@ -1,0 +1,38 @@
+
+.widget {
+    display: flex;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    gap: 16px;
+    margin: auto;
+    width: 169px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.change-color {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+    background-color: #4e75ff;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+
+}
+p {
+    margin: 0;
+}

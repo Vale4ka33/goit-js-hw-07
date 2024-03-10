@@ -1,0 +1,57 @@
+#controls {
+    background-color: #f6f6fe;
+    width: 486px;
+    height: 104px;
+    border-radius: 8px;
+    padding: 32px;
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+
+
+}
+#controls input {
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 8px;
+    flex-grow: 1;
+    text-align: center;
+    
+}
+
+
+
+button[data-create], button[data-destroy] {
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border-color: currentColor;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    flex-grow: 0;
+
+    
+}
+
+button[data-destroy] {
+    background-color: #ff4e4e;;
+
+}
+button[data-create] {
+    background-color: #4e75ff;
+}
+
+#boxes {
+    padding: 32px;
+    display: flex;
+    gap: 16px;
+    background-color: #f6f6fe;
+    min-width: 486px;
+    min-height: 160px;
+    border-radius: 8px;
+}
