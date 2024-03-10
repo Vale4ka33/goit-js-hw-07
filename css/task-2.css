@@ -1,0 +1,20 @@
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    padding: 0;
+}
+
+.gallery li {
+    width: calc((100% - 48px) / 3);
+    list-style: none;
+}
+
+.gallery img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+}

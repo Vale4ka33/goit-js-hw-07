@@ -8,8 +8,6 @@
     gap: 16px;
     margin-bottom: 16px;
     box-sizing: border-box;
-
-
 }
 #controls input {
     border: 1px solid #808080;
@@ -19,8 +17,6 @@
     text-align: center;
     
 }
-
-
 
 button[data-create], button[data-destroy] {
     border-radius: 8px;
@@ -34,16 +30,22 @@ button[data-create], button[data-destroy] {
     font-family: "Montserrat", sans-serif;
     border: none;
     flex-grow: 0;
-
-    
 }
 
 button[data-destroy] {
     background-color: #ff4e4e;;
-
 }
+
+button[data-destroy]:hover {
+    background-color: #ff7070;;
+}
+
 button[data-create] {
     background-color: #4e75ff;
+}
+
+button[data-create]:hover {
+    background-color: #6c8cff;
 }
 
 #boxes {

@@ -3,4 +3,45 @@
     width: 392px;
     border-radius: 8px;
     list-style: none;
+    background-color: #f6f6fe;
+}
+#categories {
+    padding: 24px;
+    width: 440px;
+    height: 888px;
+    border-radius: 8px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-bottom: 16px;
+}
+
+#categories .item ul li {
+    list-style: none;
+    width: 360px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    padding-left: 18px;
+    padding-top: 8px;
+}
+
+#categories .item ul {
+    padding: 0;
+
 }
