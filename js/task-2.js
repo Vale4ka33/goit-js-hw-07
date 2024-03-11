@@ -42,9 +42,7 @@ const newList = arr => {
 
 const gallery = document.querySelector('.gallery');
 
-const imageList = newList(images);
-
-gallery.append(...imageList);
+gallery.append(...newList(images));
 
 
 

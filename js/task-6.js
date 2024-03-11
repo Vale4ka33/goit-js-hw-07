@@ -11,8 +11,13 @@ const inputNumber = document.querySelector('input[type="number"]');
 
 
 function createBoxes(amount) {
+  if (amount < 1 || amount > 100) {
+    console.error('The amount must be between 1 and 100.');
+    return;
+  }
   const newBox = [];
   let size = 30;
+  divBoxes.innerHTML = '';
 
   for (let i = 0; i < amount; i++) {
     const box = document.createElement('div');
@@ -27,9 +32,9 @@ function createBoxes(amount) {
 
 createBtn.addEventListener('click', (event) => {
   const amount = parseInt(inputNumber.value);
-  if (amount > 1 && amount <= 100) {
+  if (amount >= 1 && amount <= 100) {
     createBoxes(amount);
-    amount.value = '';
+    inputNumber.value = '';
   }
 })
 

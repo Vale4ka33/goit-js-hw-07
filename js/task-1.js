@@ -6,6 +6,5 @@ categoriesList.forEach(item => {
     const headingName = heading.textContent;
     const categoriesElem = item.querySelectorAll('li');
     console.log(
-    `Category: ${headingName} 
-    Elements: ${categoriesElem.length}`);
+    `Category: ${headingName} Elements: ${categoriesElem.length}`);
 })

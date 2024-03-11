@@ -8,8 +8,8 @@ form.addEventListener('submit', (event) => {
         alert('All form fields must be filled in');
     } else {
         const objForm = {
-        email: emailValue,
-        password: passwordValue,
+        email: emailValue.trim(),
+        password: passwordValue.trim(),
         }
         console.log(objForm);
         event.target.reset();
